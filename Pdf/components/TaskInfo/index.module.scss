@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 16px;
+    padding-left: 12px;
+}
+
+.item {
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.title {
+
+    color: rgba(0, 132, 247, 1);
+
+}
+
+.desc {
+    color: rgba(51, 51, 51, 1);
+}

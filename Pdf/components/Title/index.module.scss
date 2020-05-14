@@ -1,0 +1,29 @@
+.container {
+    margin-bottom: 16px;
+    margin-top: 24px;
+    display: flex;
+
+    &::before {
+        content: '';
+        width: 4px;
+        height: 26px;
+        background-color: #0084F7;
+        margin-right: 8px;
+    }
+
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(51, 51, 51, 1);
+}
+
+.subTitle {
+    font-size: 10px;
+    color: rgba(153, 153, 153, 1);
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}

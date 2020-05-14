@@ -1,0 +1,21 @@
+.container {
+    //BFC
+    // overflow: hidden;
+    display: inline-block;
+    padding: {
+        top: 24px;
+    }
+}
+
+.title {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    &::before {
+        content: '';
+        width: 2px;
+        height: 14px;
+        background-color: #0084F7;
+        margin-right: 12px;
+    }
+}

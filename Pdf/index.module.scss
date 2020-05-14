@@ -1,0 +1,17 @@
+.mainContainer {
+    //BFC
+    // overflow: hidden;
+    display: inline-block;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    background-color: #fff;
+    width: 595.28px;
+    padding: {
+        left: 24px;
+        right: 24px;
+    }
+    :global {
+        th, td {
+            font-size: 12px;
+        }
+    }
+}
